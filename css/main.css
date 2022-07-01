@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  margin: 0 auto;
+  font-size: 16px;
+  color: #907b67;
+  line-height: 1;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+.container-fluid {
+  max-width: 1600px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 0 15px;
+}

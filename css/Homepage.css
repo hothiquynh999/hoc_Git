@@ -1,0 +1,32 @@
+.head_top {
+  display: flex;
+  flex-flow: nowrap;
+  align-items: center;
+  padding-top: 50px;
+}
+.head_home{
+    font-size: 32px;
+    font-weight: 700;
+}
+.head_list {
+  display: flex;
+  padding-left: 200px;
+}
+.head_list li:first-child {
+    
+    text-transform: uppercase;
+}
+.head_list li:not(:first-child) {
+  padding-left: 50px;
+  text-transform: uppercase;
+}
+
+.btn {
+  float: right;
+  margin-left: auto;
+  padding: 15px 40px;
+  background-color: #2500f9;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+}
